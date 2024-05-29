@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+li {
+    font-family: "Outfit", sans-serif;
+}
+
+a {
+    display: contents;
+    color: black !important;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    background-color: rgb(255 255 255 / 65%);
+    backdrop-filter: blur(25px);
+}
+
+.logodiv {
+    display: inline-flex;
+    align-items: center;
+}
+.menu-icon {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 90px;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 0;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.footer > div {
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+}
+.footer > div > a {
+    margin-left: 10px !important;
+}
+
+.titlename {
+    font-size: 27px;
+    margin-left: 90px;
+    font-weight: 700;
+}
+
+.footername {
+    margin-left: 90px;
+}
+
+main {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.bio {
+    margin-top: 170px;
+}
+
+.titlesection {
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+
+.bodybio {
+    border-left: 9px solid black;
+    border-right: 9px solid black;
+    padding: 9px 15px 9px 15px;
+}
+.pbio {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.projectGrid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.imgPrjectContainer {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.imgPrject {
+    border: 9px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.label {
+    font-weight: 800;
+    text-align: center;
+}
+
+.contacts > div > a {
+    font-weight: 600;
+    font-size: 18px;
+}
+.contacts > div {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.contacts > div > a > img {
+    margin-right: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+.menu-icon > ul {
+    display: none;
+    font-size: 60%;
+    padding-top: 30px;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    top: 0;
+    left: 0;
+}
+li:focus {
+    outline: none;
+}
+li:focus ul {
+    display: block;
+}
+li > a {
+    color: black !important;
+}
+
+.listmenu {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    padding-right: 80px;
+    flex-wrap: wrap;
+}
+
+.menuitem {
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+}
+
+.border {
+    border: 2px solid black;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 130px;
+}
+
+.rettangolo > div > img {
+    height: 100%;
+    width: 100%;
+}
+.rettangolo > div {
+    width: 350px;
+}
+
+.silentbook {
+    justify-content: space-between;
+}
+.silentbook > div {
+    width: 400px;
+    margin-bottom: 170px;
+}
+.silentbook > div > img {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+    .centerOnMobile {
+        text-align: center;
+    }
+    .nav {
+        height: 50px !important;
+        padding-top: 10px !important;
+    }
+    .footer {
+        height: 50px !important;
+        padding-top: 10px !important;
+    }
+    .titlename {
+        margin-left: 30px !important;
+        font-size: 18px !important;
+    }
+    footer > div {
+        margin-right: 30px !important;
+    }
+    li {
+        margin-right: 30px !important;
+    }
+    .footername {
+        margin-left: 30px !important;
+    }
+    .bio {
+        margin-top: 120px !important;
+    }
+    .titlesection {
+        font-size: 30px !important;
+    }
+    .bodybio {
+        padding: 8px 8px 8px 10px !important;
+    }
+    .pbio {
+        font-size: 15px !important;
+    }
+    .border {
+        margin-top: 30px !important;
+        margin-left: -10px !important;
+        margin-right: 70px !important;
+    }
+    .menuitem {
+        margin-left: -30px !important;
+    }
+}
