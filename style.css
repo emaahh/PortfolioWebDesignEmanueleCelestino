@@ -39,6 +39,7 @@ a {
     display: inline-flex;
     align-items: center;
     margin-right: 90px;
+    cursor: pointer;
 }
 
 .footer {
